@@ -1,2 +1,2 @@
-# GCp-Commands
+# GCP-Commands
 google cloud commands
