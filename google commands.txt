@@ -1,0 +1,30 @@
+gcloud config set project My First Project
+
+bash install.sh --disable-prompts
+
+https://shell.cloud.google.com 
+gcloud projects list
+gcloud projects create sreegcptraining
+gcloud config set project sreegcptraining
+gcloud config set project [PROJECT_ID]
+gcloud alpha billing projects link sreegcptraining --billing-account-012E29-7BF25C-B18B1F 
+gcloud services list -- available
+gcloud services enable compute.googleapis.com &&
+gcloud services enable container.googleapis.com &&
+gcloud services enable dns.googleapis.com &&
+gcloud services enable datastore.googleapis.com &&
+gcloud services enable containersecurity.googleapis.com &&
+gcloud services enable artifact registry.googleapis.com &&
+gcloud services enable logging.googleapis.com &&
+gcloud services enable networkservices.googleapis.com &&
+gcloud services enable apigateway.googleapis.com &&
+gcloud projects list
+gcloud services enable sourcerepo.googleapis.com
+
+vaaraahirealtors@gmail.com
+ABC123abc
+
+#!/bin/bash
+apt update
+apt -y install apache2
+echo "<h3>Hello world from $(hostname), $(hostname -i), $(hostname -d)</h3>" > /var/www/html/index.html
